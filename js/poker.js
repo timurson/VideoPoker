@@ -231,6 +231,11 @@ function init() {
                 bank.deposit(win.pays[bet.getValue() - 1]);
                 win_value.innerHTML = 'WIN ' + win.pays[bet.getValue() - 1];
                 win_message.innerHTML = win.hand;
+                // clear the holds
+                for (var i = 0; i < cards.length; ++i) {
+                    var child = cards[i].children[0];
+                    child.style.visibility = 'hidden';
+                }
             }
         }
         state_machine.advanceState();
