@@ -1,9 +1,9 @@
 # VideoPoker
 Fully functional version of popular video poker done using Bootstrap 4 with flex boxes.  Should look good on various screen screen sizes, including mobile.
 
-[Live Demo](http://romanapps.com/projects/VideoPoker/index.html)
+[Live Demo](http://romanapps.com/projects/Poker/index.html)
 
-![Alt Text](https://github.com/timurson/VideoPoker/blob/master/screenshot.PNG)
+![Alt Text](https://github.com/timurson/Poker/blob/master/screenshot.PNG)
 
 # License
 Copyright (C) 2019 Roman Timurson
